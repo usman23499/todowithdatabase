@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCeDMhMhDpx_E5C0KAvXSb8LHoX9iPF0jE",
+    authDomain: "todowithdatabase-d6238.firebaseapp.com",
+    databaseURL: "https://todowithdatabase-d6238.firebaseio.com",
+    projectId: "todowithdatabase-d6238",
+    storageBucket: "todowithdatabase-d6238.appspot.com",
+    messagingSenderId: "593343509991",
+    appId: "1:593343509991:web:67213119dbb582455a7942",
+    measurementId: "G-LP7N2SJDQ6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+    <!-- Image and text -->
+
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="https://www.freeiconspng.com/uploads/to-do-list-icon-buy-this-icon-for--0-48-1.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+      TO DO LIST
+    </a>
+  </nav>
+  <center>
+<div class="firstdiv">
+<input type="text" name="" id="todoitem" placeholder="Enter Todo" maxlength="26"><button class="btn1" onclick="addthis()">ADD ITEM</button>
+<button  class="btn1" onclick="deleteall()">DELETE ALL</button>
+</div>
+
+
+<div class="tododiv">
+
+    <ul id="list">
+        
+
+    </ul>
+</div>
+
+</center>
+
+    <script src="app.js"></script>
+</body>
+</html>

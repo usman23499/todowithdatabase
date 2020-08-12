@@ -1,0 +1,94 @@
+
+.navbar{
+
+    background-color: aqua !important;
+}
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif !important;
+    color: rgb(9, 114, 79) !important;
+}
+body{
+    background-color: aquamarine !important;
+    outline: none !important;
+    
+}
+.firstdiv{
+
+    margin-top: 3%;
+    
+}
+input{
+
+    border: 2px solid aqua ;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    margin: 10px;
+    text-align: center;
+    color: aqua;
+    font-weight: bold;
+}
+
+.btn1{
+    margin: 7px;
+    border: 2px solid white ;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    outline: none;
+}
+.btn1:hover{
+    background-color: white;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid aqua ;
+}
+.btn1:focus{
+   outline: none;
+}
+
+.tododiv{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border: 2px solid aqua;
+    border-radius: 20px;
+    align-content: center;
+    
+}
+ul{
+    list-style-type:none;
+    text-align: left;
+}
+.todotext{
+ color: aqua;
+ font-size: 28px;
+ font-family: 'Times New Roman', Times, serif;
+ display: inline-block;
+ width: 62%;
+
+}
+.btn{
+    background-color: white;
+    color: aqua;
+    border: 2px solid aqua ;
+    margin: 10px;
+    width: 69px;
+    height: 40px;
+    text-align: center;
+    
+    
+   
+  
+}
+.btn:hover{
+ background-color: aqua;
+ color: white;
+ border: 2px solid white ;
+
+}
